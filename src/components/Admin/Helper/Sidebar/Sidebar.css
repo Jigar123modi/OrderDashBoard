@@ -1,0 +1,38 @@
+.side-menu .sidebar-list:hover i{
+    color:#bf925d !important;
+}
+
+.side-menu .sidebar-list i{
+    font-size: 30px;
+    color: #ffffff;
+}
+.side-menu .link:hover .sidebar-list i {
+    color: #ffffff;
+}
+.side-menu .link:hover .sidebar-list .link-hover{
+    color: #bf925d;
+}
+.side-menu .link .sidebar-list .link-hover{
+    color: #ffffff;
+}
+.menu-drawer {
+
+}
+.bg_color_logout{
+    background-color: #000000 !important;
+}
+
+.side-menu .link:hover{
+    background-color: #000000 !important;
+}
+.menu-drawer .logout-list {
+    padding: 0 !important;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.menu-left {
+    overflow: auto;
+    background-color: #313131;
+    height: calc(100vh - 165px);
+}

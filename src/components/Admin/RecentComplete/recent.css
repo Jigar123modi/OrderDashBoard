@@ -1,0 +1,8 @@
+.sidebar{
+    background-color: transparent !important;
+    min-height: calc(100vh - 105px) !important;
+}
+
+.recent-details{
+    min-height: calc(100vh - 105px) !important;
+}

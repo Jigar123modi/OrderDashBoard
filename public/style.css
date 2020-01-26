@@ -1,0 +1,29 @@
+.loadingPanel {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+body.loading {
+    overflow: hidden;
+}
+body.loading .loadingPanel {
+    display: block;
+}
+
+body.loadingSuccess {
+    overflow: hidden;
+}
+body.loadingSuccess .loadingPanel {
+    display: block;
+}
+

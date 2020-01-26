@@ -1,0 +1,11 @@
+
+.button_main{
+    background: transparent;
+    border:2px solid #bf925b;
+    transition:all .5s;
+}
+
+.button_main:hover{
+    border: 2px solid #bf925b;
+    background-color: #bf925b;
+}

@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.service_menu {
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 0px 2px 4px 3px #92929282;
+    text-transform: capitalize;
+}
+
+.service_menu a {
+    padding-right: 10px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.service_1 {
+    padding: 50px 0px 10px 0px;
+}
+
+.service_1 .title_space {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.service_1 .title_space .service_main_title {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service_1 .service_box {
+    box-shadow: 0px 0px 10px 3px #92929282;
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+#pointer {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+}
+
+#pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.service_1 .service_box #pointer .shape_text {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    color: white;
+}
+
+.service_1 .service_box .service_title {
+    font-size: 15px;
+    color: #795548;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service_1 .service_box .price {
+    margin-top: 10px;
+}
+
+.service_1 .service_box .price .price1 {
+    color: red;
+    font-weight: 600;
+}
+
+.service_1 .service_box .price .price2 {
+    color: green;
+    font-weight: 600;
+}
+
+#ex3 .fa-stack[data-count]:after{
+    position:absolute;
+    right:0%;
+    top:1%;
+    content: attr(data-count);
+    font-size:30%;
+    padding:.6em;
+    border-radius:50%;
+    line-height:.8em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width: 1em;
+    font-weight:bold;
+}

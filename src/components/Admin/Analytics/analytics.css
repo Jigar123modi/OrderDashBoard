@@ -1,0 +1,231 @@
+body{
+    background-image: linear-gradient(to bottom right, black, #3e3e3e) !important;
+    height: 100vh !important;
+}
+
+.header-logo i {
+    cursor: pointer;
+}
+
+.analytics-wrap {
+    background-color: #eef1f5;
+}
+
+.sub-header-dropdown {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #dfe5ea;
+    width: 100%;
+    float: left;
+}
+
+.sub-header-dropdown .dropdown-right {
+    text-align: right;
+    float: right;
+}
+
+.sub-header-dropdown .dropdown-right .header-select-dropdown {
+    border: 1px solid #cccccc !important;
+    width: 200px !important;
+}
+
+.sub-header-dropdown .dropdown-right .header-select-dropdown .icon {
+    color: #9a9a9a;
+}
+
+.sub-header-dropdown .dropdown-right .header-select-dropdown .text {
+    color: #9a9a9a;
+}
+
+.sub-header-dropdown .dropdown-right .header-select-dropdown.all-store {
+    margin-right: 10px;
+}
+
+.dashboard-main {
+    padding: 15px;
+    float: left;
+    width: 100%;
+}
+
+.dashboard-stat2 {
+    background-color: #ffffff;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    border: 1px solid #dfe5ea;
+    min-height: 140px;
+    max-height: 140px;
+}
+
+.dashboard-stat2 .analytics-display {
+    float: left;
+    width: 100%;
+}
+
+.dashboard-stat2 .analytics-display .analytics-number {
+    float: left;
+    padding-bottom: 10px;
+}
+
+.progress-percentage .progress-text {
+    color: #AAB5BC;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dashboard-stat2 .ui.tiny.progress .bar {
+    height: 0.3em;
+}
+
+.dashboard-stat2 .ui.progress:last-child {
+    margin: 0 0 1em;
+}
+
+.dashboard-stat2 .analytics-display .analytics-icon {
+    float: right;
+}
+
+.dashboard-stat2 .analytics-display .analytics-number .analytics-font-green-sharp {
+    color: #2ab4c0;
+}
+
+.dashboard-stat2 .analytics-display .analytics-number small {
+    font-size: 14px;
+    color: #AAB5BC;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.analytics-chart {
+    padding: 15px;
+    width: 100%;
+    clear: both;
+}
+
+.analytics-chart-modal {
+    background-color: #ffffff;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    border: 1px solid #dfe5ea;
+}
+
+.analytics-chart-modal .analytics-chart-header {
+    border-bottom: 1px solid #eee;
+    float: left;
+    width: 100%;
+    min-height: 48px;
+    margin-bottom: 10px;
+}
+
+.analytics-chart-modal .analytics-chart-header .chart-title {
+    float: left;
+    padding: 10px 0;
+}
+
+.analytics-chart-modal .analytics-chart-header .chart-title small {
+    line-height: 13px;
+    color: #9eacb4;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.analytics-chart-modal .analytics-chart-header .chart-tools {
+    float: right;
+}
+
+.analytics-chart-modal .analytics-chart-header .chart-title span {
+    font-size: 16px;
+    color: #2f353b;
+    font-weight: 700;
+}
+
+.analytics-chart-modal .analytics-chart-body {
+    width: 100%;
+    float: left;
+    /*padding-top: 10px;*/
+    min-height: 400px;
+}
+
+.all-store-chart .recharts-legend-wrapper, .complete-cancel-request .recharts-legend-wrapper {
+    bottom: -10px !important;
+}
+
+.not-found .error-img-wrapper {
+    text-align: center;
+}
+
+.custom-tooltip {
+    position: relative;
+}
+
+.custom-tooltip {
+    background: #000;
+    padding: 10px;
+}
+
+.barchart-tooltip {
+    color: #fff;
+}
+
+.custom-tooltip .barchart-tooltip:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #000 transparent transparent transparent;
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.avg-rating .recharts-legend-wrapper {
+    bottom: -10px !important;
+}
+
+.custom-label-range {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.color-box {
+    height: 10px;
+    width: 14px;
+    display: inline-block;
+    background: #413ea0;
+    margin-right: 8px;
+}
+
+.range-name {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.range-name:last-child {
+    margin-right: 0;
+}
+
+.avg-wait-time-report .recharts-legend-wrapper {
+    bottom: 5px !important;
+}
+
+.analytics-progress-bar .progress {
+    height: 5px;
+}
+
+.analytics-wrap .form-header {
+    background: #212121;
+}
+
+.analytics-progress-bar .bar {
+    background: #2ab4c0 !important;
+}
+
+.analytics-icon{
+    opacity: 0.4;
+}

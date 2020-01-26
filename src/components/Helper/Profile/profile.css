@@ -1,0 +1,14 @@
+.icon_color{
+    color:#bf925b !important;
+}
+.button_main2{
+    background-color: #bf925b !important;
+    border:2px solid #000000 !important;
+    color:#ffffff !important;
+    transition:all .5s !important;
+    font-family: "Josefin Sans", Arial, sans-serif;
+}
+.button_main2:hover{
+    border: 2px solid #bf925b !important;
+    background-color: #000000 !important;
+}
