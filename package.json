@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.26.7",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
     "eslint": "^5.8.0",
